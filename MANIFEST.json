@@ -47,8 +47,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 2606,
-      "sha256": "b363fbab9e031eb348339349aa24fbaff6d19e801481dd68caea174e6df8388a"
+      "bytes": 2760,
+      "sha256": "1c39b1bf311af0c45ebf86a80165d2d38dc730389af240b34d67fe3426c20647"
     },
     {
       "path": "BUILD",
@@ -147,8 +147,8 @@
     },
     {
       "path": "adapter/dfabric/gates.py",
-      "bytes": 51280,
-      "sha256": "2ca440855d39c7a419f4f1223bdb4c11804add523e86fef4d490bee5c7d60f58"
+      "bytes": 51372,
+      "sha256": "45b7ce9fb146a605c577a959d7b4c4bdacbbe569cdba3b9b1cab296bf0a8ca83"
     },
     {
       "path": "adapter/dfabric/manifest.py",
@@ -1983,6 +1983,6 @@
     "pacore_tree_sha256": "046a9930c61b1d5a8a98de87b65feb933f8c5979351289953ea72dead5e304a0",
     "root": "Desktop/PA21.2"
   },
-  "total_bytes": 3507063,
+  "total_bytes": 3507309,
   "release_note": "Hardened payload derivation; original inventory and change map retained under provenance/."
 }

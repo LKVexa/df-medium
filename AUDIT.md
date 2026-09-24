@@ -22,6 +22,8 @@ Work was performed in a separate copy of DF_Medium; the original is unchanged.
   key pair so repeated sanitizer targets do not rely on overwriting private keys.
 - Excluded original .build outputs. Retained original signed manifests and
   historical evidence; current digest records identify the hardened derivation.
+  The native checksum gate now uses RELEASE_CONTENTS.sha256 for derived bytes,
+  preserving the original SHA256SUMS and its historical signature context.
   Added Apache-2.0 LICENSE/NOTICE and README naming RUSSELL PHILIP SMITHSON.
 
 ## Validation
