@@ -153,7 +153,8 @@ def own_build_and_gate(node_id: str, root: str, full: bool = False) -> Dict[str,
         recs["own_gate"] = sh(["make", "operational"], root)
         if full:
             recs["verify_br500"] = sh([sys.executable, "evidence/verify_br500.py"], root)
-        recs["own_sums"] = sh(["sha256sum", "-c", "--quiet", "SHA256SUMS"], root)
+        # Original SHA256SUMS remains historical; verify this derived payload.
+        recs["own_sums"] = sh(["sha256sum", "-c", "--quiet", "RELEASE_CONTENTS.sha256"], root)
     elif node_id == "N_LARGE":
         recs["build"] = sh(["make"], root)             # `make` = build + operational gate
         recs["build_dev"] = sh(["make", "brctl-dev"], root)
