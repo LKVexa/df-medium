@@ -31,6 +31,11 @@ jobs:
           sudo apt-get install -y --no-install-recommends build-essential libssl-dev
           python -m pip install --only-binary=:all: -r REQUIREMENTS.txt
       - name: Verify native node and adapter gates
-        run: python -B adapter/dfabric/cli.py node-verify
+        run: |
+          python -B adapter/dfabric/cli.py node-verify || {
+            tail -n 60 _runs/*_logs/own_*.log
+            exit 1
+          }
       - name: Run native sanitizers and host regressions in a disposable copy
+        if: ${{ !cancelled() }}
         run: python -B tools/validate_native.py
