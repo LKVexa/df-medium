@@ -1,0 +1,46 @@
+{
+  "original_tree_sha256": "887f41e99771bd09a9e539959d375fdc3f018c8a345e807e590118789a7ff0ff",
+  "release_tree_sha256": "6b58a78956f5dd6c3ba651237c85cfcca99e0655b7678c613393ab2d481fd424",
+  "changes": [
+    {
+      "path": "Makefile",
+      "original_sha256": "267e4a855098fa5b58dd0d0c28e4df2b35263aac83105b6aa4e2af5ed1daa1dc",
+      "release_sha256": "5f248344f2a47e35d97ccdd352eeb060fb59b9abd026157f325b20dcee69631f"
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "64123b58504e529aaf3132e4a45550fbd2f11c162ec5b32e1c6abcefd5f363f3",
+      "release_sha256": "4011937a1746182edab5096f866b96cf27686343b5d7e487a0ef63dc868c9910"
+    },
+    {
+      "path": "RELEASE_CONTENTS.sha256",
+      "original_sha256": null,
+      "release_sha256": "537cd1f76daf715cfa4b1b32314c979158abadf43521aac6a35a9d3957a7ab63"
+    },
+    {
+      "path": "host/br_host.c",
+      "original_sha256": "0398f506181d237fb64c32140073da1df118ebd472a289133c411f1558772b00",
+      "release_sha256": "0d9f51341bf69ab210fcade21b26b0c575358e930d877d4020943bab5e91e0dd"
+    },
+    {
+      "path": "host/bradmin.c",
+      "original_sha256": "ec30ac400c7ca93dec2093d4279a7624297fcdee3c07535bafe5fb523704ab05",
+      "release_sha256": "e3a120c80307d5e4967f301b8d537b96de04c30034e39c4f044fecda09b915c8"
+    },
+    {
+      "path": "host/brctl.c",
+      "original_sha256": "4886ca3ba444ab211f5d17cdb2fdd3e64245df2602c7299ded870592965ca302",
+      "release_sha256": "9ed65be9173b0b1866c39b73efd4ee7b55fbf2d40ad22ad64a9f898c831946c5"
+    },
+    {
+      "path": "host/brverify.c",
+      "original_sha256": "2286344721c6dfc5fedc9c7399ec5f97215843eef53c9a4e09d1068ca92aa56b",
+      "release_sha256": "420cc3a17a062654fd8891faf699225e9a950f06ae10e4c445a34b6e54910f64"
+    },
+    {
+      "path": "tests/spec_sync.py",
+      "original_sha256": "c52b80404de42bde91e4efb5e15ce414ed84fc9b81c4c642f4524b14886273a3",
+      "release_sha256": "8da2562a19ca19139701f681776ff99d9235eb0c1b91b5f80aa361831e81fc4b"
+    }
+  ]
+}
