@@ -32,8 +32,8 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 1335,
-      "sha256": "c7e9494d7697d32d333107d6682223aa8be52972140fec9ee09d54679b5751b8"
+      "bytes": 1461,
+      "sha256": "342ad0c39a3824aa2dfac410434a51cef0ab7f6553510dd20be0292fd6d0b4d4"
     },
     {
       "path": ".github/workflows/import-source.yml",
@@ -1983,6 +1983,6 @@
     "pacore_tree_sha256": "046a9930c61b1d5a8a98de87b65feb933f8c5979351289953ea72dead5e304a0",
     "root": "Desktop/PA21.2"
   },
-  "total_bytes": 3506937,
+  "total_bytes": 3507063,
   "release_note": "Hardened payload derivation; original inventory and change map retained under provenance/."
 }
